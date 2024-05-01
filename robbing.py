@@ -16,7 +16,7 @@ def robbery():
             ]
             self.score = 0
 
-        #Cheking and adding score
+        #Checking and adding score
         def draw(self):
             os.system("cls" if os.name == "nt" else "clear")
             for y in range(self.height):
