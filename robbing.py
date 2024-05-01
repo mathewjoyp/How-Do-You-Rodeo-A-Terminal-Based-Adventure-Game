@@ -59,9 +59,7 @@ def robbery():
                 self.draw()
                 self.check_collision()
                 direction = self.get_char()
-                if direction == "q":
-                    break
-                elif time.time() - start_time > 30:
+                if time.time() - start_time > 30:
                     print("Time's up!")
                     break
                 elif direction in ["w", "a", "s", "d"]:
